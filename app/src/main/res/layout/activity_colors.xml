@@ -10,6 +10,14 @@
         android:rowCount="42"
         android:columnCount="28">
 
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ratingBar2"
+            android:layout_row="13"
+            android:layout_column="14"
+            android:background="#737373" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="281dp"
@@ -18,6 +26,14 @@
             android:layout_row="32"
             android:layout_column="14"
             android:text="                                  What is your favorite color?" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="95dp"
+            android:text="THE ONE BUTTON TO RULE THEM ALL"
+            android:id="@+id/button10"
+            android:layout_row="33"
+            android:layout_column="14" />
 
         <Button
             style="?android:attr/buttonStyleSmall"
