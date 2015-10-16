@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/GridLayout"
+        android:rowCount="42"
+        android:columnCount="28">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="281dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView2"
+            android:layout_row="32"
+            android:layout_column="14"
+            android:text="                                  What is your favorite color?" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Red"
+            android:id="@+id/button3"
+            android:layout_row="34"
+            android:layout_column="14"
+            android:background="#ff030a" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Orange"
+            android:id="@+id/button4"
+            android:layout_row="35"
+            android:layout_column="14"
+            android:background="#f7ab00" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Yellow"
+            android:id="@+id/button9"
+            android:layout_row="36"
+            android:layout_column="14"
+            android:layout_columnSpan="2"
+            android:background="#fff435" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Green"
+            android:id="@+id/button8"
+            android:layout_row="37"
+            android:layout_column="14"
+            android:background="#0eb506" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Blue"
+            android:id="@+id/button7"
+            android:layout_row="38"
+            android:layout_column="14"
+            android:background="#070cff" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Purple"
+            android:id="@+id/button2"
+            android:layout_row="39"
+            android:layout_column="14"
+            android:background="#6826d0" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="white"
+            android:id="@+id/button6"
+            android:layout_row="40"
+            android:layout_column="14"
+            android:background="#ffffff" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="crimson"
+            android:id="@+id/button5"
+            android:layout_row="41"
+            android:layout_column="14"
+            android:background="#9f0004" />
+
+    </GridLayout>
+</LinearLayout>
