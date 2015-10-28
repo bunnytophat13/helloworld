@@ -33,7 +33,8 @@
             android:text="THE ONE BUTTON TO RULE THEM ALL"
             android:id="@+id/button10"
             android:layout_row="33"
-            android:layout_column="14" />
+            android:layout_column="14"
+            android:onClick="onColorClick" />
 
         <Button
             style="?android:attr/buttonStyleSmall"
@@ -43,7 +44,8 @@
             android:id="@+id/button3"
             android:layout_row="34"
             android:layout_column="14"
-            android:background="#ff030a" />
+            android:background="#ff030a"
+            android:onClick="onColorClick" />
 
         <Button
             style="?android:attr/buttonStyleSmall"
@@ -53,7 +55,8 @@
             android:id="@+id/button4"
             android:layout_row="35"
             android:layout_column="14"
-            android:background="#f7ab00" />
+            android:background="#f7ab00"
+            android:onClick="onColorClick" />
 
         <Button
             style="?android:attr/buttonStyleSmall"
@@ -64,7 +67,8 @@
             android:layout_row="36"
             android:layout_column="14"
             android:layout_columnSpan="2"
-            android:background="#fff435" />
+            android:background="#fff435"
+            android:onClick="onColorClick" />
 
         <Button
             style="?android:attr/buttonStyleSmall"
@@ -74,7 +78,8 @@
             android:id="@+id/button8"
             android:layout_row="37"
             android:layout_column="14"
-            android:background="#0eb506" />
+            android:background="#0eb506"
+            android:onClick="onColorClick" />
 
         <Button
             style="?android:attr/buttonStyleSmall"
@@ -84,7 +89,8 @@
             android:id="@+id/button7"
             android:layout_row="38"
             android:layout_column="14"
-            android:background="#070cff" />
+            android:background="#070cff"
+            android:onClick="onColorClick" />
 
         <Button
             style="?android:attr/buttonStyleSmall"
@@ -94,7 +100,8 @@
             android:id="@+id/button2"
             android:layout_row="39"
             android:layout_column="14"
-            android:background="#6826d0" />
+            android:background="#6826d0"
+            android:onClick="onColorClick" />
 
         <Button
             style="?android:attr/buttonStyleSmall"
@@ -104,7 +111,8 @@
             android:id="@+id/button6"
             android:layout_row="40"
             android:layout_column="14"
-            android:background="#ffffff" />
+            android:background="#ffffff"
+            android:onClick="onColorClick" />
 
         <Button
             style="?android:attr/buttonStyleSmall"
@@ -114,7 +122,8 @@
             android:id="@+id/button5"
             android:layout_row="41"
             android:layout_column="14"
-            android:background="#9f0004" />
+            android:background="#9f0004"
+            android:onClick="onColorClick" />
 
     </GridLayout>
 </LinearLayout>

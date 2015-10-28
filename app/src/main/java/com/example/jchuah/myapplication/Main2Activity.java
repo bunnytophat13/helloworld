@@ -1,19 +1,30 @@
 package com.example.jchuah.myapplication;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Toast;
 
 public class Main2Activity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main2);
+        setContentView(R.layout.activity_colors);
         Bundle groceries = getIntent().getBundleExtra("groceries");
         Log.i("GROCERIES!", groceries.getString("name"));
+    }
+    static String tag = "com.example.jchuah.myapplication.MainActivity";
+
+    public void onColorClick (View button) {
+        Log.d("LOLOLOL", "Next button clicked");
+        Log.i(tag, "Launching NAMECOLOR Activity!!!!!!!YAY!!!!!");
+        Intent main3ActivityIntent = new Intent (this, Main3Activity.class);
+        startActivity(main3ActivityIntent);
     }
 
     @Override
