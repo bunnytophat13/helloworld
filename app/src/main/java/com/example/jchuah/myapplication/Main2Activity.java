@@ -27,6 +27,7 @@ public class Main2Activity extends AppCompatActivity {
         Log.d("LOLOLOL", "Next button clicked");
         Log.i(tag, "Launching NAMECOLOR Activity!!!!!!!YAY!!!!!");
         Intent main3ActivityIntent = new Intent (this, Main3Activity.class);
+        main3ActivityIntent.putExtra("groceries", groceries);
         Button colorButton = (Button)source;
         ColorDrawable bgColor = (ColorDrawable)source.getBackground();
         groceries.putInt("colorclick", bgColor.getColor());
