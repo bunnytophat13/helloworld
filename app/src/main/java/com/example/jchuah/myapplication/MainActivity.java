@@ -21,6 +21,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
+
+
+
+
+
     public void onNextClick(View source){
         //Toast.makeText(this, "Howdy", Toast.LENGTH_LONG ).show();
         Log.d("LOLOLOL", "Next button clicked");
