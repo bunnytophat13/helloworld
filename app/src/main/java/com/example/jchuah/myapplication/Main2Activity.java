@@ -30,7 +30,7 @@ public class Main2Activity extends AppCompatActivity {
         main3ActivityIntent.putExtra("groceries", groceries);
         Button colorButton = (Button)source;
         ColorDrawable bgColor = (ColorDrawable)source.getBackground();
-        groceries.putInt("colorclick", bgColor.getColor());
+        groceries.putInt("colorClick", bgColor.getColor());
         startActivity(main3ActivityIntent);
 
     }

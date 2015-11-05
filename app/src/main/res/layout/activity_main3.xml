@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Colorful Name!!!!!!!!!!!!!YAY!!!!"
-        android:id="@+id/textView3"
+        android:id="@+id/colornameyay"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="93dp" />

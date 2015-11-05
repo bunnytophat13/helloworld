@@ -2,15 +2,23 @@ package com.example.jchuah.myapplication;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TextView;
 
 public class Main3Activity extends AppCompatActivity {
-
+Bundle groceries;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main3);
+        groceries = getIntent().getBundleExtra("groceries");
+        Log.i("GROCERIES!", groceries.getString("name"));
+        String name = groceries.getString("name");
+        TextView colornameyay_textview = (TextView)findViewById(R.id.colornameyay);
+        colornameyay_textview.setText(name);
+        colornameyay_textview.setTextColor(groceries.getInt("colorClick"));
     }
 
     @Override
